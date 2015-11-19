@@ -43,7 +43,3 @@ class Rational(n: Int, d: Int)
   // private methods
   private def gcd(a: Int, b:Int): Int = if (b == 0) a else gcd(b, a % b)
 }
-
-val one_half = new Rational(1,2)
-val two_thirds = new Rational(2,3)
-println (one_half + two_thirds).toString

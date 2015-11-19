@@ -3,3 +3,9 @@
 
 # Ignore Scala compiler results.
 *.class
+
+# Ignore SBT intermediary results.
+*/project/project/*
+*/project/target/*
+*/target/*
+
