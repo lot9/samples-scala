@@ -1,4 +1,4 @@
-package servlets
+package com.lot9
 
 import javax.servlet.http._
 
